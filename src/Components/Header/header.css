@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid purple;
+}
+
+.header h1 {
+    margin: 0.4rem;
+}
