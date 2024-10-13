@@ -1,15 +1,13 @@
 import './App.css'
-import Header from './Components/Header/Header'
 import ContextProvider from "./Context/ContextProvider"
-import InitialForm from './Sections/InitialForm/InitialForm'
+import MatrixRouter from './Routes/MatrixRouter'
 
 function App() {
 
   return (
     <>
       <ContextProvider>
-        <Header />
-        <InitialForm />
+        <MatrixRouter />
       </ContextProvider>
     </>
   )
