@@ -8,9 +8,10 @@ type ContextProviderProps = {
 
 export default function ContextProvider({ children }: ContextProviderProps) {
     const [teamName, setTeamName] = useState<string>("TheScoreMatrix");
+    const [totalOvers, setTotalOvers] = useState<number>(1);
     return (
         <>
-            <Context.Provider value={{ teamName, setTeamName }}>
+            <Context.Provider value={{ teamName, setTeamName, totalOvers, setTotalOvers }}>
                 {children}
             </Context.Provider>
         </>
