@@ -4,7 +4,7 @@ import { ContextType } from "./ContextType"
 const defaultValue: ContextType = {
     teamName: "TheScoreMatrix",
     setTeamName: () => { },
-    totalOvers: 1,
+    totalOvers: 0,
     setTotalOvers: () => { },
 
 }

@@ -1,9 +1,9 @@
 import "./input.css"
 import { inputProps } from "./../FormElementTypes"
 
-export default function Input({ name, type, id, label, className, placeholder, isChecked, required }: inputProps) {
+export default function Input({ name, type, id, label, placeholder, isChecked, required }: inputProps) {
     return (
-        <div className={className}>
+        <div className={`${(type == "text" || type == "number") ? "form-input" : "form-input-radio"}`}>
             <input placeholder={placeholder}
                 className={`${(type == "text" || type == "number") ? "form-input-field" : " form-clickable-field"}`}
                 name={name} id={id} type={type}

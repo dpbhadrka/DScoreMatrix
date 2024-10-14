@@ -1,0 +1,46 @@
+.current-over {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 45px);
+    gap: 0.7rem;
+    place-content: center;
+}
+
+.current-over div {
+    color: var(--sixty);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.wicket {
+    background-color: red !important;
+    color: var(--thirty) !important;
+}
+
+.six {
+    background-color: #06D001;
+}
+
+.four {
+    background-color: #1679AB;
+    background-color: #8BDB81;
+    background-color: #C0EBA6;
+
+}
+
+.no-ball {
+    color: red !important;
+}
+
+.run {
+    background-color: var(--ten);
+    background-color: #F6F4EB;
+}
+
+.wide {
+    background-color: #BBE2EC;
+}

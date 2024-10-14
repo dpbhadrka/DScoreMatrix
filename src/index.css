@@ -2,13 +2,14 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  --ten: #810CA8;
-  --thirty: #262626;
-  --sixty: #ffffd0;
-  --font-color: #ffffd0;
-  --normal-font: 1.3rem;
+  --ten: #37B5B6;
+  --thirty: #F8F8FF;
+  --sixty: #2E2E2E;
+  --normal-font: 1.2rem;
   --title-font: 1.5rem;
 }
+
+/* #125B9A */
 
 * {
   box-sizing: border-box;
@@ -20,6 +21,7 @@ body {
   min-height: 100svh;
   background-color: var(--thirty);
   color: var(--sixty);
+  /* overflow: hidden; */
 }
 
 #root {
@@ -28,6 +30,26 @@ body {
   gap: 1rem;
 }
 
+.modal-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 100svh;
+  left: 0;
+  background-color: var(--thirty);
+}
+
 .text-center {
   text-align: center;
+}
+
+button {
+  background-color: var(--ten);
+  color: var(--thirty);
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: var(--sixty) !important;
+  color: var(--thirty) !important;
 }

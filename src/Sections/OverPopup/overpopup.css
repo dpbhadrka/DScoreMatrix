@@ -1,0 +1,36 @@
+.overpopup {
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 700px;
+    min-width: 320px;
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+    0% {
+        top: -100%;
+    }
+
+    20% {
+        top: 40%;
+    }
+
+    50% {
+        top: 15%;
+    }
+
+    70% {
+        top: 40%;
+    }
+
+    90% {
+        top: 25%;
+    }
+
+    100% {
+        top: 40%;
+    }
+}

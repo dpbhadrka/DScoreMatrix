@@ -1,0 +1,30 @@
+.matrix-top-container {
+    grid-area: greet;
+    height: unset !important;
+    display: grid;
+    padding: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+    color: var(--thirty);
+    background-color: var(--ten);
+    background-color: #121481;
+    font-size: var(--title-font);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.top-bar {
+    padding: 0 0 0.8rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-bar strong:last-child {
+    text-align: right;
+}
+
+.matrix-top-container>div {
+    display: flex;
+    text-align: right;
+    width: 100%;
+    justify-content: right;
+    gap: 0.5rem 1rem;
+}
